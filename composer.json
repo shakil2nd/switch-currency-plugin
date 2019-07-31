@@ -1,0 +1,28 @@
+{
+    "name": "bc/brand-crock-currency-switch",
+    "description": "BC Currency Switch",
+    "version": "1.0.0",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "BrandCrock GmbH"
+        }
+    ],
+    "type": "shopware-platform-plugin",
+    "autoload": {
+        "psr-4": {
+            "Bc\\BrandCrockCurrencySwitch\\": "src/"
+        }
+    },
+    "extra": {
+        "shopware-plugin-class": "Bc\\BrandCrockCurrencySwitch\\BrandCrockCurrencySwitch",
+        "copyright": "(c) by BrandCrock GmbH",
+        "label": {
+            "de-DE": "BC Currency Switch",
+            "en-GB": "BC Currency Switch"
+        }
+    }
+}
+
+
+
